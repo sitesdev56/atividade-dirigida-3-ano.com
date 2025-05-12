@@ -1,0 +1,27 @@
+/* Tablet (até 1024px) */
+@media (max-width: 1024px) {
+  .cabecalho h1 {
+    font-size: 1.8rem;
+  }
+
+  .conteudo {
+    font-size: 1rem;
+  }
+}
+
+/* Celular (até 600px) */
+@media (max-width: 600px) {
+  .cabecalho h1 {
+    font-size: 1.5rem;
+  }
+
+  .botoes-customizados,
+  .botoes-customizados-tema {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  img, video {
+    width: 100%;
+  }
+}
