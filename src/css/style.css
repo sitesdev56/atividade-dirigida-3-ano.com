@@ -106,14 +106,6 @@ body {
   .botao-linguagem:hover {
     background-color: #555;
   }
-
-  img, video {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
   
   .botao-linguagem.selecionado {
     background-color: #3420e2;
